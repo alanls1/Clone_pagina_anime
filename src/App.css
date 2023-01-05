@@ -1,0 +1,25 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+}
+body{   
+    background-color:#101010;
+    color: #fff;
+}
+li{
+    list-style: none;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover{
+    color: #E74C3C;
+}
+
+main{
+    padding: 30px 45px;
+}
+

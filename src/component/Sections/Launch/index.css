@@ -1,0 +1,27 @@
+
+.lancamentos{
+    border-left: 3px solid #E74C3C;
+    padding-left: .5em;
+    margin-left: .5em;
+    margin-bottom: .5em;
+}
+.container--eps{
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    border-bottom: 1px solid rgba(175, 170, 170, 0.1);
+    padding-bottom: 30px ;
+}
+.anime-eps{
+    width: 290px;
+    margin-top: 10px;   
+}
+.anime-eps a {
+    color: white;
+    cursor: pointer;
+}
+
+.anime-eps img{
+    width: 100%;
+    height: 90%;
+}
