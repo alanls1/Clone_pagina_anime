@@ -1,9 +1,13 @@
+import { Link, Outlet } from "react-router-dom";
+
+
 import "./index.css"
 import Logo from "../../img/logo.png"
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import SearchIcon from '@mui/icons-material/Search';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
+
 
 export function NavBar(){
     return(
@@ -70,10 +74,11 @@ export function NavBar(){
                         }}/></a>
                     </div>
                     
-                    <a className="nav--user">
+                    <Link to="/login" className="nav--user">
                         <AccountCircleIcon/>
-                    </a>
+                    </Link>
                     
+                <Outlet />
                 </div>
             </nav>
         </>

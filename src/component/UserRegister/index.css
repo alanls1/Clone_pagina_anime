@@ -1,0 +1,77 @@
+.container--register{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form--logo{
+    margin-top: 3em;
+    height: 34px;
+}
+.form--logo img{
+    width: 100%;
+    height: 100%;
+}
+.form--register{
+    margin: 2em 0;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em 2.5em;
+    background-color: #FCFCFD;
+    color: #9B9B9B;
+    border-radius: 8px;
+}
+
+.form--fildInput{
+    margin: 1em 0;
+    
+    display: flex;
+    flex-direction: column; 
+}
+.form--fildInput input{
+    height: 35px;
+    margin-top: 1em;
+    padding-left: 1em;
+    border-radius: 3px;
+    border: 1px solid #E1CFD2;
+}
+
+.form--nameLastName{
+    display: flex;
+    justify-content: space-between;
+}
+.form--nameLastName div{
+    display: flex;
+    flex-direction: column;
+}
+.form--nameLastName input{
+    margin-top: .5em;
+    padding-left: .5em;
+    height: 33px;
+    border-radius: 3px;
+    border: 1px solid #E1CFD2;
+}
+
+.form--fildButton{
+    text-align: center;
+}
+.form--fildButton button{
+    width: 100%;
+    margin: 2em 0;
+    padding: 1em 0;
+    background-color:#C04336;
+    color: #fffff98e;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.form--fildButton a{
+    color: #C04336;
+}
+.form--fildButton button:hover{
+    color: #ffffff;
+}

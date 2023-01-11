@@ -3,7 +3,10 @@ import {List} from "./component/List";
 import {TodayCalendar} from "./component/TodayCalendar";
 import { Sections } from "./component/Sections"
 
+
+
 import "./App.css";
+
 
 function App() {
 
@@ -19,6 +22,8 @@ function App() {
         <TodayCalendar/>
         <Sections />
       </main>
+
+      
     </div>
   );
 }

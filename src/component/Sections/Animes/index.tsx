@@ -10,6 +10,7 @@ export function Animes(){
         return response.data
     })
 
+
     return (
         <>
             <ListItem 

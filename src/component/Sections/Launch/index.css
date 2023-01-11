@@ -1,12 +1,12 @@
 
-.lancamentos{
+.launch{
     border-left: 3px solid #E74C3C;
     padding-left: .5em;
     margin-left: .5em;
     margin-bottom: .5em;
 }
 .container--eps{
-    margin: 10px auto;
+    margin: 5em auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     border-bottom: 1px solid rgba(175, 170, 170, 0.1);

@@ -17,7 +17,7 @@ export function Launch(){
 
     return(
         <section>
-            <h2 className="lancamentos">
+            <h2 className="launch">
                 Lançamentos
             </h2>
             <div className="container--eps">
