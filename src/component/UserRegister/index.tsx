@@ -11,7 +11,7 @@ interface eventTarget{
     }
 }
 
-export function UserRegister(){
+export function RegisterUser(){
     const [ userRegister, setUserRegister ] = useState({
         username: "",
         email: "",

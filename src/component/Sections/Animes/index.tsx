@@ -16,7 +16,7 @@ export function Animes(){
             <ListItem 
                 list={data} 
                 isFetching={isFetching}
-                type="Animes" 
+                type="Animes"
             />
         </>
     )

@@ -2,7 +2,7 @@ import { Link, Outlet} from "react-router-dom";
 
 import "./index.css"
 
-export function UserLogin(){
+export function LoginUser(){
     return (
         <div className="container--login">
             <form className="form--login">

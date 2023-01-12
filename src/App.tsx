@@ -1,6 +1,5 @@
-import {NavBar }from "./component/NavBar";
-import {List} from "./component/List";
-import {TodayCalendar} from "./component/TodayCalendar";
+import { NavBar }from "./component/NavBar";
+import { List } from "./component/List";
 import { Sections } from "./component/Sections"
 
 
@@ -19,7 +18,6 @@ function App() {
       <List/>
       <main>
         
-        <TodayCalendar/>
         <Sections />
       </main>
 

@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import { Link, Outlet } from "react-router-dom"
 
 import "./index.css"
 import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
@@ -48,9 +48,9 @@ const ListItem = ({list, isFetching, type}: {list: item, isFetching: boolean, ty
                         <p>
                             {listItem?.meta.count}
                         </p>
-                        <a>
+                        <Link to="/pagination">
                             SEE ALL
-                        </a>
+                        </Link>
                         <div className="rowLeft" onClick={handleMoveLeft}>
                             <ArrowLeftIcon style={{
                                 fontSize: 40
@@ -89,7 +89,7 @@ const ListItem = ({list, isFetching, type}: {list: item, isFetching: boolean, ty
                         })} 
                    </div>         
                 </div> 
-                
+            <Outlet/>
         </section>
     )
 }
