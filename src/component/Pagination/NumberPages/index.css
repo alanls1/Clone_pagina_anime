@@ -1,0 +1,18 @@
+.pagination__item--active{
+    background: none;
+    font-weight: bold; 
+}
+.pagination__item--active:focus{
+    color: #AD392D;
+}
+.buttons button{
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+    color: #ffff;
+    background-color: #101010;
+}
+.buttons button:hover{
+    background: #0000;
+}
+

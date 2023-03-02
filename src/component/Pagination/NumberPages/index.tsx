@@ -1,3 +1,5 @@
+import "./index.css";
+
 interface numberPages{
     total: number,
     limit: number,
@@ -18,9 +20,10 @@ export function NumberPages(props: numberPages) {
                 {Array.from({ length: maxItem })
                     .map((_, index) => index + first)
                     .map((page) => (
-                        <li>
+                        <li key={page} className="buttons">
                             <button 
                                 onClick={() => props.setOffset((page - 1) * props.limit)}
+                                className={page === current ? "pagination__item--active" : ""}
                             >
                                 {page}
                             </button>
