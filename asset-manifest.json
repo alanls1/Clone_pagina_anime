@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Clone_pagina_anime/static/css/main.c25b2da3.css",
+    "main.js": "/Clone_pagina_anime/static/js/main.4744bc9b.js",
+    "index.html": "/Clone_pagina_anime/index.html",
+    "main.c25b2da3.css.map": "/Clone_pagina_anime/static/css/main.c25b2da3.css.map",
+    "main.4744bc9b.js.map": "/Clone_pagina_anime/static/js/main.4744bc9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c25b2da3.css",
+    "static/js/main.4744bc9b.js"
+  ]
+}
