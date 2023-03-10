@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client';
 import { QueryClientProvider, QueryClient} from 'react-query';
-import { BrowserRouter } from "react-router-dom"
+import { HashRouter } from "react-router-dom"
 
 import { RouteWay } from "./Routes"
 
@@ -12,11 +12,11 @@ const queryClient = new QueryClient();
 
 root.render(
   
-    <BrowserRouter>
+    <HashRouter>
       <QueryClientProvider client={queryClient}>
         <RouteWay/>
       </QueryClientProvider>
-    </BrowserRouter>
+    </HashRouter>
      
 );
 
